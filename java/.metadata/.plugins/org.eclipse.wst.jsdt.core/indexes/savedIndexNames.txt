@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+C:\Users\Traiyi\Documents\git\code\java\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3719372417.index
+1657330681.index
+1918552229.index
+2290927279.index
+2291061506.index
+3405207564.index
+2722708184.index
+505284921.index
+1960435243.index
+1014076981.index

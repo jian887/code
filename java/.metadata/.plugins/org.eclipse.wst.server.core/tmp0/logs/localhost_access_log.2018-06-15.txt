@@ -1,0 +1,7 @@
+127.0.0.1 - - [15/Jun/2018:21:59:28 +0800] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [15/Jun/2018:21:59:32 +0800] "GET /Test-JSP-Javabean/index.jsp HTTP/1.1" 500 2907
+0:0:0:0:0:0:0:1 - - [15/Jun/2018:21:59:32 +0800] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [15/Jun/2018:22:01:44 +0800] "GET /Test-JSP-Javabean/index.jsp HTTP/1.1" 500 2907
+0:0:0:0:0:0:0:1 - - [15/Jun/2018:22:04:15 +0800] "GET /Test-JSP-Javabean/index.jsp HTTP/1.1" 200 970
+0:0:0:0:0:0:0:1 - - [15/Jun/2018:22:04:22 +0800] "GET /Test-JSP-Javabean/index.jsp?Result=null&first=1&operator=%2B&second=2 HTTP/1.1" 200 973
+0:0:0:0:0:0:0:1 - - [15/Jun/2018:22:04:34 +0800] "GET /Test-JSP-Javabean/index.jsp?Result=1%2B2%3D3.0&first=23&operator=*&second=32 HTTP/1.1" 200 977

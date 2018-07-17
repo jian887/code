@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<title>Text</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<script type="text/script" src="jquery/jquery-3.3.1.js"></script>
+<script type="text/script" src="bootstrap/js/bootstrap.min.js"></script>
+<link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet"> 
+
+</head>
+<body>
+	<div class="container">
+		<form id="loginFrom" action="check.jsp" method="post" class="form-horizontal">
+			<fieldset>
+				<legend>
+					<label><span class="glyphicon glyphicon-user">登陆</span></label>
+				</legend>
+			
+				<div class="form-gruop" id="midDiv">
+					<label class="col-md-3 control-label" for="mid">用户名</label>
+					<div class="col-md-5">
+						<input type="text" id="mid" name="mid" class="form-control"
+							placeholder="输入用户名">
+					</div>
+				</div class="col-md-4" id="passwordSpan">
+				<div>
+					<div class="form-gruop" id="passwordDiv">
+						<label class="col-md-3 control-label" for="password"> 密码</label>
+						<div class="col-md-5">
+							<input type="password" id="password" name="password"
+								class="form-control" placeholder="输入密码">
+						</div>
+					</div class="col-md-4" id="paswordSpan">
+					<div></div>
+			</fieldset>
+
+		</form>
+	</div>
+</body>
+</html>
