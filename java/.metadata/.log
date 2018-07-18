@@ -2991,6 +2991,7 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< HEAD
 !SESSION 2018-07-18 09:55:12.897 -----------------------------------------------
 eclipse.buildId=4.8.0.I20180611-0500
 java.version=1.8.0_172
@@ -3315,6 +3316,17 @@ Caused by: java.io.FileNotFoundException: C:\Program Files\Git\mingw64\share\git
 !MESSAGE Project facet Java version 1.8 is not supported.
 
 !ENTRY org.eclipse.core.resources 4 568 2018-07-18 10:45:17.850
+=======
+!SESSION 2018-07-18 10:19:04.554 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_162
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 4 568 2018-07-18 10:20:25.537
+>>>>>>> 08d8f01f41b575ce40feb0b0c5fee9dd80a55117
 !MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
 !STACK 0
 java.io.FileNotFoundException: /home/traiyi/Documents/git/code/java/.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap (No such file or directory)
@@ -3324,9 +3336,18 @@ java.io.FileNotFoundException: /home/traiyi/Documents/git/code/java/.metadata/.p
 	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
 	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
 	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+<<<<<<< HEAD
 	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1735)
 	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1816)
 	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1204)
 	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1145)
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60)
+=======
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+>>>>>>> 08d8f01f41b575ce40feb0b0c5fee9dd80a55117

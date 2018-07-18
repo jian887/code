@@ -1,4 +1,5 @@
 INDEX VERSION 1.4+/home/traiyi/Documents/git/code/java/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+<<<<<<< HEAD
 2860449963.index
 3703194086.index
 2861325504.index
@@ -13,3 +14,18 @@ INDEX VERSION 1.4+/home/traiyi/Documents/git/code/java/.metadata/.plugins/org.ec
 2410862309.index
 4168046373.index
 2172419337.index
+=======
+4168046373.index
+198232023.index
+3856756012.index
+1057345152.index
+1443252312.index
+3703194086.index
+2410862309.index
+4053451518.index
+2860449963.index
+2722503252.index
+1256734451.index
+3419285734.index
+1270843423.index
+>>>>>>> 08d8f01f41b575ce40feb0b0c5fee9dd80a55117
