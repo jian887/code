@@ -1,0 +1,35 @@
+### 复现集合
+1. 链表
+2. 队列
+3. 
+
+### 用集合实现一个小项目
+1. stack 
+2. queue 
+
+
+
+Set、Map 性能比较
+
+3. Set 
+   value 不可重复
+   
+   - HashSet
+       不保证元素排列顺序
+       存入一个元素，使用hashCode()和equals检验是否是同一个元素  
+   
+      主要应用于查找  
+   - TreeSet
+       会自动给添加的对象进行排序，包括数值类、String类、Date、Time表示日期的类
+       主要应用于排序
+       
+       
+
+4. Map 
+   保存的每项数据都是key-value对
+   key 不可重复
+   value 可重复
+   - HashMap
+        主要应用于查找 
+   - TreeMap
+   主要应用于排序

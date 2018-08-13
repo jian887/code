@@ -1,0 +1,23 @@
+                          作业
+                          要求
+使用集合里的函数对Int、String、Double 其中一类信息进行增删查改操作
+在17:45之前完成。
+能完成的直接作为作业打包发送到2470046995@qq.com, 压缩包命名：学号+姓名
+                        主要知识点
+LinkedList<E> linkedList = new LinkedList<E>();  
+//定义一个集合
+
+linkedList.add()                 //添加一个数据
+linkedList.index(Object obj)     //根据输入的数据获取该数据索引
+linkedList.remove(index,element) //根据索引，删除该该索引
+linkedList.get(index)            //根据索引，获得在该索引的数据
+linkedList.set(index,element)    //根据索引，修改在该索引的数据
+
+                        注意事项
+int num = input.nextInt();  // nextInt接收int数据后会输出一个空行
+String br = input.nextLine(); //nextLine 接收该空行
+String name = input.nextLine();  //nextLine接收String数据
+Double grade = input.nextDouble(); //nextDouble接收Double数据
+
+如果在主函数内调用成员函数，需要new一个对象来调用 
+如果不建立对象，希望直接调用的话，那么你的成员函数就要静态化	

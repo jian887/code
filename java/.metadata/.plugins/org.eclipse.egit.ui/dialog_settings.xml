@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="RepositorySelectionPage.UsedUris">
+		<item value="file://"/>
 		<item value="https://github.com/Traiyi/cGFzc3dvcmQtYm94.git"/>
 		<item value="https://github.com/JiaxinTse/Calculator.git"/>
 		<item value="https://github.com/JerryLi-X/cGFzc3dvcmQtYm94.git"/>
@@ -12,15 +13,17 @@
 		<item value="github.com"/>
 	</list>
 	<list key="CommitDialog.authorValues">
+		<item value="traiyi &lt;traiyi@example.com&gt;"/>
 		<item value="2470046995@qq.com &lt;2470046995@qq.com&gt;"/>
 	</list>
 	<list key="CommitDialog.committerValues">
+		<item value="traiyi &lt;traiyi@example.com&gt;"/>
 		<item value="2470046995@qq.com &lt;2470046995@qq.com&gt;"/>
 	</list>
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
-		<item value="666" key="DIALOG_WIDTH"/>
-		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="458" key="DIALOG_HEIGHT"/>
+		<item value="656" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="454" key="DIALOG_HEIGHT"/>
 		<item value="358" key="DIALOG_X_ORIGIN"/>
 		<item value="67" key="DIALOG_Y_ORIGIN"/>
 		<list key="sashWeights">
