@@ -9,7 +9,7 @@ public class JavaBase {
 	  
 	     public static void main(String args[]) {  
 	     try {  
-	          Class.forName("com.mysql.cj.jdbc.Driver");  //¼ÓÔØMYSQL JDBCÇý¶¯³ÌÐò  
+	          Class.forName("com.mysql.cj.jdbc.Driver");  //ï¿½ï¿½ï¿½ï¿½MYSQL JDBCï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  
 	          //Class.forName("org.gjt.mm.mysql.Driver");  
 	          System.out.println("Success loading Mysql Driver!");  
 	         }catch (Exception e) {  
@@ -19,12 +19,12 @@ public class JavaBase {
 	     try{  
 	          Connection connect = DriverManager.getConnection(  
 	           "jdbc:mysql://localhost:3306/test?useSSL=true","traiyi","123456");  
-	           //Á¬½ÓURLÎª jdbc:mysql//·þÎñÆ÷µØÖ·/Êý¾Ý¿âÃû £¬ºóÃæµÄ2¸ö²ÎÊý·Ö±ðÊÇµÇÂ½ÓÃ»§ÃûºÍÃÜÂë  
+	           //ï¿½ï¿½ï¿½ï¿½URLÎª jdbc:mysql//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·/ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö±ï¿½ï¿½Çµï¿½Â½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  
 	           
 	          System.out.println("Success connect Mysql server!");  
 	          Statement stmt = connect.createStatement();  
 	          ResultSet rs = stmt.executeQuery("select * from Persons");  
-	                        //user ÎªÄã±íµÄÃû³Æ  
+	                        //user Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  
 	          while (rs.next()) {  
 	                  System.out.println(rs.getString("LastName"));  
 	             }  
