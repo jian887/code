@@ -15,9 +15,7 @@ public class InsertChar {
 		    StringBuilder stringBuilder = new StringBuilder(stringStart);
 		    //StringBuilder [] stringEnd = new StringBuilder[10];
 		    StringBuilder  stringEnd = stringBuilder.insert(index, c);
-		    System.out.println(stringEnd);
-		
-	    
+		    System.out.println(stringEnd);  
 	}
 
 }
