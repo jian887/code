@@ -1,9 +1,8 @@
-INDEX VERSION 1.4+/home/traiyi/Documents/git/code/java/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-3216065452.index
-3812787176.index
-2172419337.index
-4053451518.index
-2861325504.index
-2410862309.index
-2454431301.index
-2860449963.index
+INDEX VERSION 1.4+C:\Users\traiyi\Documents\git\code\java\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1014076981.index
+1360480452.index
+2722708184.index
+2290927279.index
+2299660345.index
+2363959972.index
+4047626653.index

@@ -11,6 +11,7 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\traiyi\Documents\git\code\java"/>
 			<item value="/home/traiyi/Documents/git/code/java"/>
 			<item value="C:\Users\Traiyi\Documents\git\code\java"/>
 			<item value="C:\Users\Traiyi\eclipse-worksapce-2"/>
