@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;com.scannerclasee.Class&apos; to &apos;ScannerTest&apos;&#x0D;&#x0A;- Original project: &apos;OftenClass&apos;&#x0D;&#x0A;- Original element: &apos;com.scannerclasee.Class&apos;&#x0D;&#x0A;- Renamed element: &apos;com.scannerclasee.ScannerTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Class&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.scannerclasee{Class.java[Class" matchStrategy="1" name="ScannerTest" qualified="false" references="true" similarDeclarations="false" stamp="1530716020074" textual="false" version="1.0"/>
-</session>

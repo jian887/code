@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap 模板</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入 Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shiv 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+    <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+    <!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+         <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+    <link href="../css/css.css" rel="stylesheet">
+
+
+    <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- 包括所有已编译的插件 -->
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body class="example1">
+    <div class="container-fluid example1">
+        <div class="container">
+            <div class="row">
+                <!--路西的父亲曾经是一名旅行家，但到死都没有征服塔希兰古迹，他把这份愿望寄托到路西身上-->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="${ pageContext.request.contextPath }">PasswordBox</a>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="${ pageContext.request.contextPath }/account/addAccount.jsp">添加账号</a>
+                        </li>
+                        <li>
+                            <a href="${ pageContext.request.contextPath }/user/info.jsp">个人信息</a>
+                        </li>
+                        <li>
+                            <a href="${ pageContext.request.contextPath }/account?action=trashList">回收站</a>
+                        </li>
+                        <li>
+                            <a href="${ pageContext.request.contextPath }/user?action=logout">注销</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <!--但是，路西的旅程一开始就不太顺利-->
+
+    <div class="container-fluid row example2">
+        <div class="container">
+
+
+            <div class="row">
+                <div class="jumbotron">
+                    <div class="container">
+                        <h1>你好，${ user.username }</h1>
+                        <p>这是你第 ${ loginTotal } 次登录，上次登录时间：${ lastLoginDate }</p>
+                        <c:choose>
+                            <c:when test="${ isSecurity }">
+                                <a class="btn btn-success" href="${ pageContext.request.contextPath }/user?action=updateSecurityQuestionUI" role="button">修改密保问题</a>
+                            </c:when>
+                            <c:otherwise>
+                                <p class="text-danger">
+                                    你的账户存在风险：
+                                    <a class="btn btn-danger" href="${ pageContext.request.contextPath }/user/createSecurityQuestion.jsp" role="button">点我完善密保问题</a>
+                                </p>
+                            </c:otherwise>
+                        </c:choose>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <c:forEach var="account" items="${ accountList }">
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title">${ account.password }</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <span>${ account.info }</span>
+                                    <br>
+                                    <div class="pull-right">
+                                        <a class="btn btn-danger" href="${ pageContext.request.contextPath }/account?action=trashAccount&id=${ account.id }" role="button">删除</a>
+                                        <a class="btn btn-success" href="${ pageContext.request.contextPath }/account?action=updateAccountUI&id=${ account.id }"
+                                            role="button">更新</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </c:forEach>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid row example3">
+        <div class="container">
+            <div class="row example33">
+                <center>
+                    <h2>
+                        太多的秘密和太少的秘密都说明精神的软弱
+                    </h2>
+                    <h2>
+                        ————沃维纳格
+                    </h2>
+                </center>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

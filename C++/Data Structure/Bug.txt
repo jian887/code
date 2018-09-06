@@ -1,0 +1,33 @@
+main(){
+    String errno = Bug;
+    if(errno == Software.code){
+            fun(){
+
+                printf("Software fixing......");
+            }
+    }
+    else if (errno == OperatingSystem.code){
+            fun(){
+
+                printf("OperatingSystem fixing......");
+
+            }
+    }
+    else if(errno == Drive.code){
+            fun(){
+
+                printf("Driving fixing......");
+
+            }
+    }
+    else if(errno == CPU.code){
+            fun(){
+
+                printf("CPU fixing......");
+
+            }
+    }
+
+    else
+            printf("Buy a new computer......");
+}

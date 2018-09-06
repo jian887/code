@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;TableOne.java&apos; to &apos;GUI+JDBC/src/com.jdbcgui.test01&apos;&#x0D;&#x0A;- Original project: &apos;GUI&apos;&#x0D;&#x0A;- Destination element: &apos;GUI+JDBC/src/com.jdbcgui.test01&apos;&#x0D;&#x0A;- Original element: &apos;com.component.table.TableOne.java&apos;" description="Copy compilation unit" destination="=GUI+JDBC/src&lt;com.jdbcgui.test01" element1="/src&lt;com.component.table{TableOne.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1529830946605" units="1" version="1.0"/>
-</session>

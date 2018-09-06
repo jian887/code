@@ -1,0 +1,40 @@
+.example1 {
+    background-color: black;
+}
+
+.example2 {
+    background-image: url(../image/web1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 0px;
+    padding-bottom: 38%;
+    background-origin: border-box;
+}
+
+.example21 {
+    background-color: rgba(15, 161, 59, 0.555);
+    height: 0px;
+    padding-bottom: 20%;
+}
+
+.example22 {
+    background-color: white;
+    height: 0px;
+    padding-bottom: 65%;
+}
+
+.example3 {
+    background-color: black;
+    height: 0px;
+    padding-bottom: 8.3%
+}
+
+.example33 {
+    background-color: rgba(15, 161, 59, 0.555);
+    height: 0px;
+    padding-bottom: 10.1%;
+}
+
+.example31{
+    color:rgba(255, 255, 255, 0.863);
+}

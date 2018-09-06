@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy 6 packages to &apos;OtherProject/src/huarongdao&apos;&#x0D;&#x0A;- Original project: &apos;class&apos;&#x0D;&#x0A;- Destination element: &apos;OtherProject/src/huarongdao&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     class/src/view&#x0D;&#x0A;     class/src/class11_1&#x0D;&#x0A;     class/src/handle&#x0D;&#x0A;     class/src/cheshi&#x0D;&#x0A;     class/src/class11_2&#x0D;&#x0A;     class/src/model" description="Copy packages" destination="=OtherProject/src&lt;huarongdao" element1="/src&lt;view" element2="/src&lt;class11_1" element3="/src&lt;handle" element4="/src&lt;cheshi" element5="/src&lt;class11_2" element6="/src&lt;model" flags="589830" fragments="6" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1531791661888" version="1.0"/>
-</session>

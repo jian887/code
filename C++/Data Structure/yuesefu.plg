@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: yuesefu - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Traiyi\AppData\Local\Temp\RSPB424.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/yuesefu.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Traiyi\Documents\Code and  Program\yuesefu.c"
+]
+Creating command line "cl.exe @C:\Users\Traiyi\AppData\Local\Temp\RSPB424.tmp" 
+Creating temporary file "C:\Users\Traiyi\AppData\Local\Temp\RSPB425.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/yuesefu.pdb" /debug /machine:I386 /out:"Debug/yuesefu.exe" /pdbtype:sept 
+".\Debug\yuesefu.obj"
+]
+Creating command line "link.exe @C:\Users\Traiyi\AppData\Local\Temp\RSPB425.tmp"
+<h3>Output Window</h3>
+Compiling...
+yuesefu.c
+c:\program files (x86)\microsoft visual studio\vc98\include\eh.h(32) : fatal error C1189: #error :  "eh.h is only for C++!"
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+yuesefu.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

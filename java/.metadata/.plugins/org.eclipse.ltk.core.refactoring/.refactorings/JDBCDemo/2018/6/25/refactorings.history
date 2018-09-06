@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy source folder &apos;mysql-connector-java-5.1.25.jar&apos; to &apos;JDBC&apos;&#x0D;&#x0A;- Original project: &apos;JDBCDemo&apos;&#x0D;&#x0A;- Destination element: &apos;JDBC&apos;&#x0D;&#x0A;- Original element: &apos;JDBCDemo/src/bin/mysql-connector-java-5.1.25.jar&apos;" description="Copy source folder" destination="=JDBC" element1="/src\/bin\/mysql-connector-java-5.1.25.jar" flags="6" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyRoots" roots="1" stamp="1529768737222" version="1.0"/>
-</session>
