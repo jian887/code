@@ -112,7 +112,7 @@ print(a_list)
 
 a_tuple = (3,4,(4,5))
 
-## false a_tuple[2] = (2,3)
+## fase a_tuple[2] = (2,3)
 
 
 
