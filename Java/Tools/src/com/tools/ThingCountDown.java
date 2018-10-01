@@ -14,7 +14,7 @@ public class ThingCountDown {
 		frame.setBounds(400, 400, 1000, 200);*/
 		//设置窗口大小
 		frame.setSize(1000, 200);  
-		//设置窗口居中
+		//设置窗口居中 
 		frame.setLocationRelativeTo(null);   
 		frame.setVisible(true);
 	}

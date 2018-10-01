@@ -97,6 +97,13 @@ print (a is b)   # 判断对象是否相同
 print (a is not c)
 print (a == c)  # 判断值是否相同
 
+a = 100
+b = 50
+
+print(a&b)
+print(a|b)
+print(a^b)
+
 # 可变与不可变对象
 
 ## 可变 ：列表、字典、NumPy数组
@@ -114,7 +121,7 @@ a_tuple = (3,4,(4,5))
 
 ## false a_tuple[2] = (2,3)
 
-
+# 
 
 
 
