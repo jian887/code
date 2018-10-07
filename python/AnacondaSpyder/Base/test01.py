@@ -104,6 +104,9 @@ print(a&b)
 print(a|b)
 print(a^b)
 
+# 三元运算符
+
+
 # 可变与不可变对象
 
 ## 可变 ：列表、字典、NumPy数组
@@ -119,16 +122,87 @@ print(a_list)
 
 a_tuple = (3,4,(4,5))
 
-## false a_tuple[2] = (2,3)
+### false a_tuple[2] = (2,3)
 
-# 
+# 数据类型
+
+fval = 7.43
+fval2 = 6.78e-5
+fval3 = 3//2
+
+print(fval,fval2,fval3)
+
+# 字符串
+a = 'one way'
+b = "two way"
+c = """
+three
+way
+"""
+c2 = """three
+way
+"""
+c_count = c.count('\n')  # 计算字符串后面的换行符
+c2_count = c2.count('\n')
+
+print(a)
+print(b)
+print(c)
+print(c2)
+print(c_count)
+print(c2_count)
+
+a = 335.56567
+s1 = str(a)
+print(s1    )
+
+s = 'python'
+list(s)
+print(s[:3])
+
+s2 = '232\\43'
+s3 = 'dsfhksfj\\fs\\\sfs\\dfdsf'
+s4 = r'dsfhksfj\\fs\\\sfs\\dfdsf'
+print(s2)
+print(s3)
+print(s4)
+
+print(s2+s4)
+
+## 字符格式化
+
+template = '{0:.3f} {1:s} are worth US${2:d} and {3:.2f}'
+
+# print(template.format(4.5464,'you',34.3,45)) false
+print(template.format(4.5464,'you',34,45.23)) # ture
+
+# 数据类型
+
+## 布尔值
+
+print(True and True)
+print(True or False)
+
+## 空值
+
+a = None
+
+print(a is None)
+print(a == None)
+
+# 日期和时间
+
+from datetime import datetime ,date , time
+
+dt = datetime(2018,10,6,16,40,34)
+print(dt , dt.day , dt.minute)
+
+print(dt.strftime('%m/%d/%y %h:%m'))
+print(dt.strftime('%m/%d/%Y %H:%m'))
 
 
 
-
-
-
-
+print(datetime.strptime('20091031', '%Y%m%d'))
 
 
 
