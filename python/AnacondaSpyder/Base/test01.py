@@ -192,7 +192,7 @@ print(a == None)
 
 # 日期和时间
 
-from datetime import datetime ,date , time
+from datetime import datetime
 
 dt = datetime(2018,10,6,16,40,34)
 print(dt , dt.day , dt.minute)
@@ -200,12 +200,18 @@ print(dt , dt.day , dt.minute)
 print(dt.strftime('%m/%d/%y %h:%m'))
 print(dt.strftime('%m/%d/%Y %H:%m'))
 
+dt2 = datetime(2018,9,6,16,40,34)
+dt3 = datetime(2018,9,3,15,40,34)
 
+delta = dt - dt2
+delta2 = dt - dt3
 
-print(datetime.strptime('20091031', '%Y%m%d'))
+print(delta)
+print(delta2)
+print(type(delta))  # datetime.timedelta  点不出来来，但是可以用
+print(dt+delta)
 
-
-
+# print(dir(datetime))  # 查看该模块的信息
 
 
 
