@@ -29,7 +29,7 @@ public class ConnectSQL {
 
 
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			/*
 			 * String url = "jdbc:mysql://localhost:3306/jdbctest01"; String user = "root";
 			 * String password = "123456"; con = DriverManager.getConnection(url, user,

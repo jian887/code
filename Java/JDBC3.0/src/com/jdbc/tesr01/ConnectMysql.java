@@ -40,10 +40,12 @@ public class ConnectMysql
         ResultSet rs = null;
         try
         {
-            Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection("jdbc:mysql://localhost/jdbctest01?"
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            conn = DriverManager.getConnection(
+            		"jdbc:mysql://localhost:3306/jdbctest01?"
                     + "user=root&password=123456"
-                    + "&useUnicode=true&characterEncoding=UTF8");
+                    +"&useSSL=false&serverTimezone=UTC");
+                    //+ "&useUnicode=true&characterEncoding=UTF8");
             System.out.println(conn);
             // Do something with the Connection
             stmt = conn.createStatement();
