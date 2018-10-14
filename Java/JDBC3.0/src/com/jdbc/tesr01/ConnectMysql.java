@@ -74,7 +74,7 @@ public class ConnectMysql
         {
             e.printStackTrace();
         }
-    /*    finally
+        finally
         {
             // it is a good idea to release
             // resources in a finally{} block
@@ -113,6 +113,6 @@ public class ConnectMysql
                 } // ignore
                 conn = null;
             }
-        }*/
+        }
     }
 }
