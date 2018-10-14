@@ -1,0 +1,71 @@
+C51 COMPILER V9.54   TEST03                                                                10/13/2018 11:12:30 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE TEST03
+OBJECT MODULE PLACED IN .\Objects\Test03.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE Test03.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\Te
+                    -st03.lst) TABS(2) OBJECT(.\Objects\Test03.obj)
+
+line level    source
+
+   1          #include <reg52.h>
+   2          #include <intrins.h>
+   3          
+   4          #define uchar unsigned char
+   5          #define uint unsigned int
+   6          
+   7          #define out P0;
+   8          
+   9          uchar seg1 [] = {0xc0 ,0xa4, 0x99, 0x82, 0x80, 0xf9 ,0xb0 ,0x92 ,0xf8 ,0x90 ,0x01};
+  10          uchar seg [] =
+  11          {
+  12             0x3F,  //"0"
+  13                          0x06,  //"1"
+  14                          0x5B,  //"2"
+  15                          0x4F,  //"3"
+  16                          0x66,  //"4"
+  17                          0x6D,  //"5"
+  18                          0x7D,  //"6"
+  19                          0x07,  //"7"
+  20                          0x7F,  //"8"
+  21                          0x6F,  //"9"
+  22            0x01
+  23          
+  24          };
+  25          uint a = 0; 
+  26          
+  27          void delay (uint i)
+  28          {
+  29   1        uchar t;
+  30   1        while(i--){
+  31   2          for(t =0;t<120;t++);
+  32   2        }
+  33   1      }
+  34          
+  35          void main()
+  36          {
+  37   1        while(1)
+  38   1        {
+  39   2          P0 = seg [a];
+  40   2          delay(500);
+  41   2          a++;
+  42   2          if(seg[a] == 0x01) a = 0;
+  43   2        }
+  44   1      
+  45   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     59    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     24    ----
+   IDATA SIZE       =   ----    ----
+C51 COMPILER V9.54   TEST03                                                                10/13/2018 11:12:30 PAGE 2   
+
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
