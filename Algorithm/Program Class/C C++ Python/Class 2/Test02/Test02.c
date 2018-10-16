@@ -1,21 +1,5 @@
 #include<stdio.h>
 
-int gougu(int a,int b,int c)
-{
-
-    int s;
-    if(a*a+b*b==c*c)
-    {
-        s = 0;
-        return s;
-    }
-    else
-    {
-        s = 1;
-        return s;
-    }
-}
-
 int main()
 {
     int i;
@@ -24,9 +8,13 @@ int main()
     for(i=0; i<t; i++)
     {
         scanf("%d %d %d",&a,&b,&c);
-        if(gougu(a,b,c)==0||gougu(b,a,c)||(c,a,b)){
+        if(a*a==b*b+c*c||b*b==a*a+c*c||c*c==a*a+b*b)
+            printf("good\n");
+        else if(a==b||a==c||b==c)
+            printf("perfect\n");
+        else
+            printf("just a triangle\n");
 
-        }
-        }
-
+    }
+    return 0;
 }
