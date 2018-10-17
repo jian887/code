@@ -10,11 +10,12 @@ int main()
     {
         cin>>a>>b>>c;
         if(a*a+b*b==c*c || a*a+c*c==b*b || b*b+c*c==a*a)
-            puts("good");//cout<<"good"<<endl;
+            cout<<"good"<<endl;
         else if(a==b || a==c || b==c)
-            cout<<"prefect"<<endl;
+            cout<<"perfect"<<endl;
         else
-            puts("just a triangle");//cout<<"just a triangle"<<endl;
+            puts("just a triangle");  //AC
+            //cout<<"just a triangle"<<endl; Wrong Answer
     }
     return 0;
 }
